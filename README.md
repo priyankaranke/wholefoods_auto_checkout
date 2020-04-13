@@ -4,9 +4,11 @@ Tired of logging into wholefoods every 30 minutes only to find that all delivery
 
 <h2>How to use it</h2>  
 
-1. Make sure you have docker installed (https://docs.docker.com/get-docker/)  
-2. Enter all the information needed in utils/secrets.py (you will need to create a mailgun API key)  
-3. `docker run priyankaranke/wholefoods_autocheckout` in your terminal  
+1. Clone this repository
+2. Make sure you have docker installed (https://docs.docker.com/get-docker/)  
+3. Enter all the information needed in utils/secrets.py (you will need to create a mailgun API key)  
+4. Build the docker image `docker build -t wholefoods .`
+5. Run the image `docker run wholefoods`
 
 <h2>Additional notes</h2>  
 
